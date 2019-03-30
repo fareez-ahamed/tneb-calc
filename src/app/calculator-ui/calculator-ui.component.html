@@ -1,0 +1,22 @@
+<div class="tariff-calc">
+  <form name="tariff">
+    <mat-card>
+      <mat-card-title>Tariff Calculator</mat-card-title>
+      <mat-card-subtitle>Helps you calculate your bills</mat-card-subtitle>
+      <mat-card-content>
+        <mat-form-field class="full-width" style="font-size:16px">
+          <input name="units" type="number" [(ngModel)]="units" matInput placeholder="Number of Units according to meter">
+        </mat-form-field>
+        <p>Your amount is {{ amount }}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button type="button" mat-button (click)="calculate()">Calculate</button>
+      </mat-card-actions>
+      <mat-card-footer>
+        <p class="tariff-footer">
+          Tariff applicable only for household electricity supply
+        </p>
+      </mat-card-footer>
+    </mat-card>
+  </form>
+</div>

@@ -1,0 +1,14 @@
+.tariff-calc {
+  margin: 1rem auto;
+  max-width: 40rem;
+}
+
+.tariff-footer {
+  font-size: 0.75em;
+  color: gray;
+  margin: 1em 1em;
+}
+
+.full-width {
+  width: 100%;
+}
