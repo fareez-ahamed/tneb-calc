@@ -1,4 +1,6 @@
-# TnebApp
+# TNEB Tariff Calculator
+
+Please check the demo at [https://fareez-ahamed.github.io/tneb-calc](https://fareez-ahamed.github.io/tneb-calc)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
